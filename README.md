@@ -2,7 +2,7 @@
 
 A comprehensive desktop application for importing, analyzing, and visualizing Excel data with interactive charts and predictive analytics. Built with Java Swing and MySQL, this system provides an intuitive platform for data-driven decision-making.
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+
 ![Java](https://img.shields.io/badge/java-8%2B-orange.svg)
 ![MySQL](https://img.shields.io/badge/mysql-5.7%2B-blue.svg)
 
@@ -370,27 +370,7 @@ excel-data-analysis/
 - [JDBC Tutorial](https://docs.oracle.com/javase/tutorial/jdbc/)
 - [Linear Regression Theory](https://en.wikipedia.org/wiki/Linear_regression)
 
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/YourFeature`)
-3. Commit your changes (`git commit -m 'Add YourFeature'`)
-4. Push to the branch (`git push origin feature/YourFeature`)
-5. Open a Pull Request
-
-### Development Guidelines
-- Follow Java naming conventions (camelCase for methods/variables)
-- Add JavaDoc comments for public methods
-- Write unit tests for new features
-- Test with multiple Excel file formats
-- Update README for new features
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
+#
 ## 👨‍💻 Author
 
 **Dhruv Yadav**
@@ -398,60 +378,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Program: Bachelor of Computer Applications (BCA)
 - Institution: Bharati Vidyapeeth (Deemed to be University), New Delhi
 
-**Project Guide**: Mr. Nripesh Kumar Nrip (Faculty)
 
-## 🙏 Acknowledgments
-
-- Bharati Vidyapeeth University for academic guidance
-- Apache POI for Excel file handling
-- JFreeChart for charting capabilities
-- MySQL Community for database management
-- All testers and contributors
-
-## 📞 Support & Troubleshooting
-
-### Common Issues
-
-**Issue**: Database connection failed
-```
-Solution:
-1. Ensure MySQL is running
-2. Check credentials in DataVisualizationGUI.java
-3. Verify database and table exist
-```
-
-**Issue**: Excel file import fails
-```
-Solution:
-1. Ensure file is .xlsx format (not .xls)
-2. Verify first row contains headers
-3. Check that numeric columns contain valid numbers
-```
-
-**Issue**: Charts not displaying
-```
-Solution:
-1. Ensure JFreeChart libraries are in classpath
-2. Verify data exists in selected columns
-3. Check column names for typos
-```
-
-**Issue**: Prediction shows incorrect results
-```
-Solution:
-1. Ensure data contains at least 2 records
-2. Verify columns are numeric
-3. Check for outliers affecting regression
-```
-
-## 📋 Version History
-
-- **v1.0** (April 2025) – Initial release
-  - Core features: Import, visualize, analyze
-  - 4 chart types
-  - CRUD operations
-  - Linear regression predictions
-  - Excel export functionality
 
 ---
 
